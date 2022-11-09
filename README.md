@@ -9,7 +9,7 @@ This is a solution to the [Todo app challenge on Frontend Mentor](https://www.fr
 ![image](https://user-images.githubusercontent.com/50958126/200794889-1f4bfe70-0b29-47de-96b1-19e6cbf0039a.png)
 
 ### Links
-- Solution URL: https://github.com/LiyanNguyen/todo-app
+- Source URL: https://github.com/LiyanNguyen/todo-app-svelte
 - Live Site URL: https://liyannguyen.github.io/todo-app
 
 ### My Process
