@@ -3,7 +3,6 @@
 	export let itemIndex;
 
 	function deleteItem () {
-		console.log(itemIndex);
 		$allTodos.splice(itemIndex, 1);
 		$allTodos = $allTodos;
 	}
