@@ -7,7 +7,6 @@
 		viewActiveTodosIsSelected,
 		viewCompletedTodosIsSelected,
 		allTodos } from "./sharedState";
-
 </script>
 
 <ul>
@@ -60,6 +59,7 @@ ul li {
 	display: flex;
 	align-items: center;
 	gap: 1rem;
+	transition: 0.3s;
 }
 
 ul li:hover {
@@ -68,6 +68,25 @@ ul li:hover {
 
 ul li.completed {
 	color: var(--vdgb);
-	text-decoration: line-through;
+	position: relative;
+}
+
+ul li::after {
+	content: '';
+  width: 0;
+  position: absolute;
+  top: 0;
+	bottom: 0;
+  left: 4rem;
+	margin-top: auto;
+	margin-bottom: auto;
+  height: .1rem;
+  background: var(--vdgb);
+	z-index: 1;
+	transition: 0.3s;
+}
+
+ul li.completed::after {
+	width: calc(100% - 8rem);
 }
 </style>
